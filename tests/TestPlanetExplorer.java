@@ -35,4 +35,14 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0, 1), N", one.ispis());
 	}
+	
+	@Test
+	public void test_movingForwardThree() {
+		Explorer one = new Explorer (0, 0, "W");
+		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
+		
+		one.movingForward(one.getDirection());
+		
+		assertEquals("(0, 1), ", one.ispis());
+	}
 }

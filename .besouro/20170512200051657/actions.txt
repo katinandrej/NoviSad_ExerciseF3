@@ -144,3 +144,6 @@ RefactoringAction 1494615052716 Explorer.java RENAME changeDirectionRight(String
 RefactoringAction 1494615053724 Explorer.java RENAME changeDirectionL(String)=>void changeDirectionLeft(String) METHOD
 EditAction 1494615066111 Explorer.java 1991 12 17 0
 EditAction 1494615080056 Explorer.java 2032 12 17 0
+RefactoringAction 1494615091786 TestPlanetExplorer.java ADD void test_movingForwardTwo()/2 METHOD
+RefactoringAction 1494615096296 TestPlanetExplorer.java RENAME test_movingForwardTwo()/2=>void test_movingForwardThree() METHOD
+EditAction 1494615125090 TestPlanetExplorer.java 1072 3 12 3

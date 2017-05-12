@@ -76,10 +76,10 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_movingBackWithCommand() {
-		Explorer one = new Explorer (2, 2, "");
+		Explorer one = new Explorer (2, 2, "E");
 		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
 		
-		assertEquals("(2, 1), N", explorer.executeCommand("b"));
+		assertEquals("(2, 1), E", explorer.executeCommand("b"));
 	}
 
 }

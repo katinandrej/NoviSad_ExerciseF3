@@ -75,6 +75,7 @@ public class Explorer {
 		}
 		if (dir == "W"){
 			x -= distance;
+			this.changeDirectionLeft(direction);
 		}
 	}
 	

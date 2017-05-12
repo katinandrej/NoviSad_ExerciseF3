@@ -89,5 +89,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(2, 2), S", explorer.executeCommand("r"));
 	}
+	
+	@Test
+	public void test_movingLeftWithCommand() {
+		Explorer one = new Explorer (2, 2, "E");
+		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
+		
+		assertEquals("(2, 2), N", explorer.executeCommand("l"));
+	}
 
 }

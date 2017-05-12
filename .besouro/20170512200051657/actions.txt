@@ -195,3 +195,6 @@ RefactoringAction 1494615592460 TestPlanetExplorer.java RENAME test_moving=>void
 RefactoringAction 1494615593969 TestPlanetExplorer.java RENAME test_movingForwardWithCommand=>void test_movingForwardWithCommand() METHOD
 EditAction 1494615771641 TestPlanetExplorer.java 1771 6 23 6
 EditAction 1494615774913 PlanetExplorer.java 2109 9 15 0
+UnitTestCaseAction 1494615775717 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615775718 TestPlanetExplorer.java FAIL
+EditAction 1494615793850 PlanetExplorer.java 2114 9 14 0

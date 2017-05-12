@@ -51,8 +51,8 @@ public class PlanetExplorer {
 			one.movingBack("S");
 		}
 		else if (command == "")*/
-		
-		return null;
+		else
+			return null;
 	}
 	
 

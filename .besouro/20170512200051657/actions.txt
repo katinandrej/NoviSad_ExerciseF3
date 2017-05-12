@@ -104,3 +104,5 @@ RefactoringAction 1494614208617 Explorer.java RENAME moveForward(String)=>void m
 RefactoringAction 1494614220336 TestPlanetExplorer.java ADD void test_creatingSpace() METHOD
 RefactoringAction 1494614224860 TestPlanetExplorer.java REMOVE test_creatingSpace() METHOD
 EditAction 1494614264813 Explorer.java 1298 10 15 0
+CompilationAction 1494614265039 TestPlanetExplorer.java
+EditAction 1494614294030 TestPlanetExplorer.java 577 1 4 1

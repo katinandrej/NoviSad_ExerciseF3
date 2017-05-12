@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 	PlanetExplorer explorer;
 
-	@Test
+	/*@Test
 	public void test_creatingSpace() {
 		Explorer one = new Explorer (0, 0, "N");
 		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
@@ -14,5 +14,15 @@ public class TestPlanetExplorer {
 		
 		assertEquals("E", one.toString());
 		
+	}*/
+	
+	@Test
+	public void test_movingForward() {
+		Explorer one = new Explorer (0, 0, "N");
+		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
+		
+		one.movingForvard(one.getDirection());
+		
+		assertEquals("E", one.toString());
 	}
 }

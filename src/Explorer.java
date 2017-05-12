@@ -79,6 +79,24 @@ public class Explorer {
 		}
 	}
 	
+	public void movingBack(String dir){
+		int distance = -1;
+		if (dir == "N"){
+			y += distance;
+		}
+		if (dir == "S"){
+			y -= distance;
+		}
+		if (dir == "E"){
+			x += distance;
+			this.changeDirectionRight(direction);
+		}
+		if (dir == "W"){
+			x -= distance;
+			this.changeDirectionLeft(direction);
+		}
+	}
+	
 	public String ispis() {
 		return "(" + Integer.toString(this.x) + ", " + Integer.toString(this.y) + "), " + this.direction;
 	}

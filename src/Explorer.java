@@ -19,7 +19,7 @@ public class Explorer {
 	public void movingRight () {
 		for (int i = 0; i < posibleDirRight.length; i++) {
 			if (this.getDirection() == posibleDirRight[i]) {
-				this.setDirection(posibleDirRight[i]+1);
+				this.setDirection(posibleDirRight[i+1]);
 			}
 		}
 	}

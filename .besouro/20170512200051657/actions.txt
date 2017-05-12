@@ -1,0 +1,64 @@
+FileOpenedAction 1494612051795 PlanetExplorer.java 1245 2 1 0
+RefactoringAction 1494612291730 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1494612296755 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1494612309786 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1494612325791 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1494612325792 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1494612325793 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1494612325793 PlanetExplorer.java ADD void setY(int) METHOD
+RefactoringAction 1494612325793 PlanetExplorer.java ADD String getObstacles() METHOD
+RefactoringAction 1494612325794 PlanetExplorer.java ADD void setObstacles(String) METHOD
+RefactoringAction 1494612387969 ObjectMoving.java ADD ObjectMoving.java CLASS
+FileOpenedAction 1494612388168 ObjectMoving.java 36 0 0 0
+FileOpenedAction 1494612392406 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1494612408416 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_() METHOD
+RefactoringAction 1494612412928 TestPlanetExplorer.java RENAME test_()=>void test_creatingSpace() METHOD
+RefactoringAction 1494612507861 PlanetExplorer.java ADD String toString() METHOD
+RefactoringAction 1494612531049 PlanetExplorer.java REMOVE toString() METHOD
+RefactoringAction 1494612541137 ObjectMoving.java ADD int x FIELD
+RefactoringAction 1494612553109 ObjectMoving.java REMOVE ObjectMoving.java CLASS
+RefactoringAction 1494612623350 PlanetExplorer.java ADD String smer FIELD
+RefactoringAction 1494612734199 Explorer.java ADD Explorer.java CLASS
+FileOpenedAction 1494612734331 Explorer.java 32 0 0 0
+RefactoringAction 1494612745849 Explorer.java ADD int x FIELD
+RefactoringAction 1494612745849 Explorer.java ADD int y FIELD
+RefactoringAction 1494612753359 Explorer.java ADD String smer FIELD
+RefactoringAction 1494612758082 PlanetExplorer.java REMOVE smer FIELD
+RefactoringAction 1494612772390 Explorer.java ADD Explorer() METHOD
+RefactoringAction 1494612778917 Explorer.java ADD Explorer()/2 METHOD
+RefactoringAction 1494612781926 Explorer.java RENAME Explorer()/2=>Explorer(int) METHOD
+RefactoringAction 1494612783437 Explorer.java RENAME Explorer(int)=>Explorer()/2 METHOD
+RefactoringAction 1494612784441 Explorer.java RENAME Explorer()/2=>Explorer(int) METHOD
+RefactoringAction 1494612790956 Explorer.java RENAME smer=>String direction FIELD
+RefactoringAction 1494612804970 Explorer.java RENAME Explorer(int)=>Explorer(int, int, String) METHOD
+RefactoringAction 1494612859017 Explorer.java ADD int getX() METHOD
+RefactoringAction 1494612859018 Explorer.java ADD void setX(int) METHOD
+RefactoringAction 1494612859018 Explorer.java ADD int getY() METHOD
+RefactoringAction 1494612859018 Explorer.java ADD void setY(int) METHOD
+RefactoringAction 1494612859019 Explorer.java ADD String getDirection() METHOD
+RefactoringAction 1494612859019 Explorer.java ADD void setDirection(String) METHOD
+RefactoringAction 1494612879570 Explorer.java ADD String moveForward FIELD
+RefactoringAction 1494612885093 Explorer.java RENAME moveForward=>String moveForward() METHOD
+RefactoringAction 1494612892120 Explorer.java RENAME moveForward()=>String moveForward(String) METHOD
+RefactoringAction 1494612903636 Explorer.java RENAME moveForward(String)=>String moving(String) METHOD
+RefactoringAction 1494613038448 Explorer.java ADD String FIELD
+RefactoringAction 1494613094643 Explorer.java RENAME posibleDir=>String FIELD
+RefactoringAction 1494613107690 Explorer.java ADD String FIELD
+RefactoringAction 1494613109699 Explorer.java RENAME posibleDirRight/2=>String FIELD
+RefactoringAction 1494613111710 Explorer.java RENAME posibleDir=>String FIELD
+RefactoringAction 1494613129751 Explorer.java RENAME moving(String)=>String movingR(String) METHOD
+RefactoringAction 1494613131265 Explorer.java RENAME movingR(String)=>String movingRight(String) METHOD
+RefactoringAction 1494613142286 Explorer.java RENAME movingRight(String)=>String movingRight() METHOD
+RefactoringAction 1494613195393 Explorer.java RENAME movingRight()=>void movingRight(Explorer) METHOD
+RefactoringAction 1494613351219 TestPlanetExplorer.java ADD Explorer one FIELD
+RefactoringAction 1494613370590 PlanetExplorer.java ADD Explorer one FIELD
+RefactoringAction 1494613379141 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>PlanetExplorer(int, int, String, Explorer) METHOD
+RefactoringAction 1494613407187 PlanetExplorer.java RENAME PlanetExplorer(int, int, String, Explorer)=>PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1494613423725 PlanetExplorer.java ADD PlanetExplorer(int, int, String)/2 METHOD
+RefactoringAction 1494613431243 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)/2=>PlanetExplorer(int, int, String, Explorer) METHOD
+RefactoringAction 1494613465839 TestPlanetExplorer.java ADD PlanetExplorer explorer FIELD
+RefactoringAction 1494613487891 TestPlanetExplorer.java REMOVE one FIELD
+RefactoringAction 1494613563001 Explorer.java ADD String toString() METHOD
+RefactoringAction 1494613639123 Explorer.java RENAME movingRight(Explorer)=>void movingRight() METHOD
+RefactoringAction 1494613642133 Explorer.java RENAME movingRight()=>void movingRight(String) METHOD
+EditAction 1494613662998 Explorer.java 933 10 11 0

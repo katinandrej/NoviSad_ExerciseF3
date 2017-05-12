@@ -43,6 +43,15 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		if (command == "f") {
+			one.movingForward("N");
+			return "(" + Integer.toString(one.getX()) + ", " + Integer.toString(one.getY()) + "), " + one.getDirection();
+		}
+		/*else if (command == "b") {
+			one.movingBack("S");
+		}
+		else if (command == "")*/
+		
 		return null;
 	}
 	

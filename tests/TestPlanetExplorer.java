@@ -71,6 +71,6 @@ public class TestPlanetExplorer {
 		Explorer one = new Explorer (2, 2, "N");
 		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
 		
-		assertEquals("(2, 3), N", explorer.executeCommand("N"));
+		assertEquals("(2, 3), N", explorer.executeCommand("f"));
 	}
 }

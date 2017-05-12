@@ -232,3 +232,6 @@ EditAction 1494616046498 PlanetExplorer.java 2392 9 14 0
 RefactoringAction 1494616053663 TestPlanetExplorer.java ADD void test_movingBackWithCommand()/2 METHOD
 RefactoringAction 1494616058175 TestPlanetExplorer.java RENAME test_movingBackWithCommand()/2=>void test_movingRightWithCommand() METHOD
 EditAction 1494616075736 TestPlanetExplorer.java 2215 8 29 8
+UnitTestCaseAction 1494616076971 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616076973 TestPlanetExplorer.java OK
+EditAction 1494616105977 PlanetExplorer.java 2586 9 14 0

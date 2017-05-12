@@ -55,6 +55,10 @@ public class PlanetExplorer {
 			one.changeDirectionRight(one.getDirection());
 			return "(" + Integer.toString(one.getX()) + ", " + Integer.toString(one.getY()) + "), " + one.getDirection();
 		}
+		else if (command == "l") {
+			one.changeDirectionLeft(one.getDirection());
+			return "(" + Integer.toString(one.getX()) + ", " + Integer.toString(one.getY()) + "), " + one.getDirection();
+		}
 		else
 			return null;
 	}

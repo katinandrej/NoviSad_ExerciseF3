@@ -16,7 +16,7 @@ public class Explorer {
 		this.direction = direction;
 	}
 	
-	public void movingRight () {
+	/*public void movingRight () {
 		for (int i = 0; i < posibleDirRight.length; i++) {
 			if (i < posibleDirRight.length - 1) {
 				if (this.getDirection() == posibleDirRight[i]) {
@@ -26,6 +26,22 @@ public class Explorer {
 			else {
 				this.setDirection("N");
 			}
+		}
+	}*/
+	
+	public void movingForward(String dir){
+		int distance = 1;
+		if (dir == "N"){
+			y += distance;
+		}
+		if (dir == "S"){
+			y -= distance;
+		}
+		if (dir == "E"){
+			x += distance;
+		}
+		if (dir == "W"){
+			x -= distance;
 		}
 	}
 	

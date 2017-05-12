@@ -77,3 +77,30 @@ EditAction 1494613787356 Explorer.java 952 10 11 0
 UnitTestCaseAction 1494613790841 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494613790842 TestPlanetExplorer.java FAIL
 EditAction 1494613945700 Explorer.java 1049 10 11 0
+UnitTestCaseAction 1494613947974 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494613947975 TestPlanetExplorer.java FAIL
+RefactoringAction 1494614088378 Explorer.java ADD void moveForward(String) METHOD
+RefactoringAction 1494614103444 Explorer.java REMOVE getDirection() METHOD
+RefactoringAction 1494614103445 Explorer.java REMOVE moveForward(String) METHOD
+RefactoringAction 1494614103445 Explorer.java REMOVE getX() METHOD
+RefactoringAction 1494614103445 Explorer.java REMOVE setDirection(String) METHOD
+RefactoringAction 1494614103445 Explorer.java REMOVE setY(int) METHOD
+RefactoringAction 1494614103446 Explorer.java REMOVE setX(int) METHOD
+RefactoringAction 1494614103446 Explorer.java REMOVE movingRight() METHOD
+RefactoringAction 1494614103446 Explorer.java REMOVE toString() METHOD
+RefactoringAction 1494614103446 Explorer.java REMOVE getY() METHOD
+RefactoringAction 1494614105961 Explorer.java ADD void moveForward(String) METHOD
+RefactoringAction 1494614105961 Explorer.java ADD String toString() METHOD
+RefactoringAction 1494614105962 Explorer.java ADD int getX() METHOD
+RefactoringAction 1494614105962 Explorer.java ADD void setX(int) METHOD
+RefactoringAction 1494614105963 Explorer.java ADD int getY() METHOD
+RefactoringAction 1494614105963 Explorer.java ADD void setY(int) METHOD
+RefactoringAction 1494614105963 Explorer.java ADD String getDirection() METHOD
+RefactoringAction 1494614105964 Explorer.java ADD void setDirection(String) METHOD
+RefactoringAction 1494614112667 TestPlanetExplorer.java REMOVE test_creatingSpace() METHOD
+RefactoringAction 1494614149732 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1494614154243 TestPlanetExplorer.java RENAME test_=>void test_movingForward() METHOD
+RefactoringAction 1494614208617 Explorer.java RENAME moveForward(String)=>void movingForward(String) METHOD
+RefactoringAction 1494614220336 TestPlanetExplorer.java ADD void test_creatingSpace() METHOD
+RefactoringAction 1494614224860 TestPlanetExplorer.java REMOVE test_creatingSpace() METHOD
+EditAction 1494614264813 Explorer.java 1298 10 15 0

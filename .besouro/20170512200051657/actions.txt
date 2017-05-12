@@ -110,3 +110,4 @@ CompilationAction 1494614294248 TestPlanetExplorer.java
 RefactoringAction 1494614338829 Explorer.java RENAME toString()=>String i() METHOD
 RefactoringAction 1494614340839 Explorer.java RENAME i()=>String ispis() METHOD
 EditAction 1494614387305 TestPlanetExplorer.java 577 1 4 1
+EditAction 1494614402372 TestPlanetExplorer.java 577 1 4 1

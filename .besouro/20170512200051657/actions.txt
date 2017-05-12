@@ -65,3 +65,7 @@ EditAction 1494613662998 Explorer.java 933 10 11 0
 EditAction 1494613695980 TestPlanetExplorer.java 356 1 4 1
 CompilationAction 1494613696171 TestPlanetExplorer.java
 EditAction 1494613700884 PlanetExplorer.java 1851 9 14 0
+UnitTestCaseAction 1494613706255 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494613706256 TestPlanetExplorer.java FAIL
+RefactoringAction 1494613735263 Explorer.java RENAME movingRight(String)=>void movingRight() METHOD
+EditAction 1494613761181 Explorer.java 952 10 11 0

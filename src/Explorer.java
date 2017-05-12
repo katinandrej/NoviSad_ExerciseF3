@@ -16,10 +16,10 @@ public class Explorer {
 		this.direction = direction;
 	}
 	
-	public void movingRight (String dir) {
+	public void movingRight () {
 		for (int i = 0; i < posibleDirRight.length; i++) {
-			if (dir == posibleDirRight[i]) {
-				dir = posibleDirRight[i]+1;
+			if (this.getDirection() == posibleDirRight[i]) {
+				this.setDirection(posibleDirRight[i]+1);
 			}
 		}
 	}

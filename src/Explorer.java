@@ -45,7 +45,7 @@ public class Explorer {
 		}
 	}
 	
-	public String toString() {
+	public String ispis() {
 		return this.direction;
 	}
 

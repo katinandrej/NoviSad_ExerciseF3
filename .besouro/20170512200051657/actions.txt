@@ -112,3 +112,6 @@ RefactoringAction 1494614340839 Explorer.java RENAME i()=>String ispis() METHOD
 EditAction 1494614387305 TestPlanetExplorer.java 577 1 4 1
 EditAction 1494614402372 TestPlanetExplorer.java 577 1 4 1
 EditAction 1494614404517 Explorer.java 1295 10 15 0
+UnitTestCaseAction 1494614405306 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494614405307 TestPlanetExplorer.java FAIL
+EditAction 1494614417956 TestPlanetExplorer.java 574 1 4 1

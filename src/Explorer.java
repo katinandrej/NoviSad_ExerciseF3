@@ -46,7 +46,7 @@ public class Explorer {
 	}
 	
 	public String ispis() {
-		return this.direction;
+		return "(" + Integer.toString(this.x) + ", " + Integer.toString(this.y) + "), " + this.direction;
 	}
 
 	public int getX() {

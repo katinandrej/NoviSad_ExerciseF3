@@ -17,12 +17,22 @@ public class TestPlanetExplorer {
 	}*/
 	
 	@Test
-	public void test_movingForward() {
+	public void test_movingForwardOne() {
 		Explorer one = new Explorer (0, 0, "E");
 		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
 		
 		one.movingForward(one.getDirection());
 		
-		assertEquals("(1, 0), E", one.ispis());
+		assertEquals("(1, 0), S", one.ispis());
+	}
+	
+	@Test
+	public void test_movingForwardTwo() {
+		Explorer one = new Explorer (0, 0, "E");
+		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
+		
+		one.movingForward(one.getDirection());
+		
+		assertEquals("(0, 1), E", one.ispis());
 	}
 }

@@ -170,3 +170,4 @@ RefactoringAction 1494615243541 TestPlanetExplorer.java RENAME test_movingOne()=
 RefactoringAction 1494615247553 TestPlanetExplorer.java RENAME test_movingForwardTwo()/2=>void test_movingBackTwo() METHOD
 RefactoringAction 1494615308639 TestPlanetExplorer.java REMOVE test_movingBackTwo() METHOD
 EditAction 1494615312638 Explorer.java 2357 13 22 0
+EditAction 1494615312873 TestPlanetExplorer.java 1554 4 16 4

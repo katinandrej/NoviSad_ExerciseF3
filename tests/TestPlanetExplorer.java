@@ -45,4 +45,24 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(1, 2), S", one.ispis());
 	}
+	
+	@Test
+	public void test_movingBackOne() {
+		Explorer one = new Explorer (1, 0, "E");
+		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
+		
+		one.movingBack(one.getDirection());
+		
+		assertEquals("(0, 0), S", one.ispis());
+	}
+	
+	/*@Test
+	public void test_movingBackTwo() {
+		Explorer one = new Explorer (0, 0, "N");
+		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
+		
+		one.movingForward(one.getDirection());
+		
+		assertEquals("(0, 1), N", one.ispis());
+	}*/
 }

@@ -229,3 +229,6 @@ EditAction 1494616026602 PlanetExplorer.java 2279 9 14 0
 CompilationAction 1494616026798 PlanetExplorer.java
 RefactoringAction 1494616031584 PlanetExplorer.java ADD import org.junit.Assert.assertEquals IMPORT
 EditAction 1494616046498 PlanetExplorer.java 2392 9 14 0
+RefactoringAction 1494616053663 TestPlanetExplorer.java ADD void test_movingBackWithCommand()/2 METHOD
+RefactoringAction 1494616058175 TestPlanetExplorer.java RENAME test_movingBackWithCommand()/2=>void test_movingRightWithCommand() METHOD
+EditAction 1494616075736 TestPlanetExplorer.java 2215 8 29 8

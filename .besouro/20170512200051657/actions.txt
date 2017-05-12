@@ -220,3 +220,6 @@ RefactoringAction 1494615892915 TestPlanetExplorer.java RENAME test_movingForwar
 EditAction 1494615911340 TestPlanetExplorer.java 1992 7 26 7
 EditAction 1494615941478 TestPlanetExplorer.java 1993 7 26 7
 EditAction 1494615943991 PlanetExplorer.java 2237 9 14 0
+UnitTestCaseAction 1494615944469 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615944470 TestPlanetExplorer.java FAIL
+EditAction 1494615978829 PlanetExplorer.java 2237 9 14 0

@@ -48,7 +48,7 @@ public class PlanetExplorer {
 			return "(" + Integer.toString(one.getX()) + ", " + Integer.toString(one.getY()) + "), " + one.getDirection();
 		}
 		else if (command == "b") {
-			one.movingBack("S");
+			one.movingBack("N");
 			return "(" + Integer.toString(one.getX()) + ", " + Integer.toString(one.getY()) + "), " + one.getDirection();
 		}
 		/*else if (command == "") {

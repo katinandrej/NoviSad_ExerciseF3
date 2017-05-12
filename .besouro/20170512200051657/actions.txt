@@ -171,3 +171,7 @@ RefactoringAction 1494615247553 TestPlanetExplorer.java RENAME test_movingForwar
 RefactoringAction 1494615308639 TestPlanetExplorer.java REMOVE test_movingBackTwo() METHOD
 EditAction 1494615312638 Explorer.java 2357 13 22 0
 EditAction 1494615312873 TestPlanetExplorer.java 1554 4 16 4
+UnitTestCaseAction 1494615313276 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494615313277 TestPlanetExplorer.java OK
+RefactoringAction 1494615318674 TestPlanetExplorer.java ADD void test_movingBackTwo() METHOD
+EditAction 1494615348399 TestPlanetExplorer.java 1547 5 20 5

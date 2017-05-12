@@ -56,13 +56,13 @@ public class TestPlanetExplorer {
 		assertEquals("(0, 0), S", one.ispis());
 	}
 	
-	/*@Test
+	@Test
 	public void test_movingBackTwo() {
-		Explorer one = new Explorer (0, 0, "N");
+		Explorer one = new Explorer (2, 2, "N");
 		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
 		
-		one.movingForward(one.getDirection());
+		one.movingBack(one.getDirection());
 		
-		assertEquals("(0, 1), N", one.ispis());
-	}*/
+		assertEquals("(2, 1), N", one.ispis());
+	}
 }

@@ -51,9 +51,9 @@ public class PlanetExplorer {
 			one.movingBack("N");
 			return "(" + Integer.toString(one.getX()) + ", " + Integer.toString(one.getY()) + "), " + one.getDirection();
 		}
-		/*else if (command == "") {
-			
-		}*/
+		else if (command == "r") {
+			one.changeDirectionRight(one.getDirection());
+		}
 		else
 			return null;
 	}

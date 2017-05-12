@@ -53,6 +53,7 @@ public class PlanetExplorer {
 		}
 		else if (command == "r") {
 			one.changeDirectionRight(one.getDirection());
+			return "(" + Integer.toString(one.getX()) + ", " + Integer.toString(one.getY()) + "), " + one.getDirection();
 		}
 		else
 			return null;

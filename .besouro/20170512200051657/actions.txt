@@ -226,3 +226,6 @@ EditAction 1494615978829 PlanetExplorer.java 2237 9 14 0
 UnitTestCaseAction 1494615981111 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494615981112 TestPlanetExplorer.java OK
 EditAction 1494616026602 PlanetExplorer.java 2279 9 14 0
+CompilationAction 1494616026798 PlanetExplorer.java
+RefactoringAction 1494616031584 PlanetExplorer.java ADD import org.junit.Assert.assertEquals IMPORT
+EditAction 1494616046498 PlanetExplorer.java 2392 9 14 0

@@ -253,3 +253,4 @@ RefactoringAction 1494616325540 PlanetExplorer.java RENAME checkObstacle=>String
 RefactoringAction 1494616327550 PlanetExplorer.java RENAME checkObstacleHitted=>String checkObstacleHitted() METHOD
 EditAction 1494616467160 PlanetExplorer.java 2746 10 15 0
 EditAction 1494616467470 Explorer.java 2377 13 22 0
+CompilationAction 1494616468518 Explorer.java

@@ -44,6 +44,23 @@ public class Explorer {
 		}
 	}
 	
+	public void changeDirectionLeft(String dir) {
+		if (dir == "N") {
+			this.setDirection("W");
+		}
+		else if (dir == "W") {
+			this.setDirection("S");
+		}
+		else if (dir == "S") {
+			this.setDirection("E");
+		}
+		else if (dir == "E") {
+			this.setDirection("N");
+		}
+	}
+	
+	
+	
 	public void movingForward(String dir){
 		int distance = 1;
 		if (dir == "N"){

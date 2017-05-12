@@ -137,3 +137,9 @@ EditAction 1494615012233 TestPlanetExplorer.java 828 2 8 2
 UnitTestCaseAction 1494615013114 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494615013114 TestPlanetExplorer.java FAIL
 EditAction 1494615033716 TestPlanetExplorer.java 828 2 8 2
+UnitTestCaseAction 1494615034172 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494615034173 TestPlanetExplorer.java OK
+RefactoringAction 1494615047703 Explorer.java ADD void changeDirectionRight(String)/2 METHOD
+RefactoringAction 1494615052716 Explorer.java RENAME changeDirectionRight(String)/2=>void changeDirectionL(String) METHOD
+RefactoringAction 1494615053724 Explorer.java RENAME changeDirectionL(String)=>void changeDirectionLeft(String) METHOD
+EditAction 1494615066111 Explorer.java 1991 12 17 0

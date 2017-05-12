@@ -62,3 +62,4 @@ RefactoringAction 1494613563001 Explorer.java ADD String toString() METHOD
 RefactoringAction 1494613639123 Explorer.java RENAME movingRight(Explorer)=>void movingRight() METHOD
 RefactoringAction 1494613642133 Explorer.java RENAME movingRight()=>void movingRight(String) METHOD
 EditAction 1494613662998 Explorer.java 933 10 11 0
+EditAction 1494613695980 TestPlanetExplorer.java 356 1 4 1

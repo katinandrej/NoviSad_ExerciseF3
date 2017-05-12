@@ -119,3 +119,17 @@ UnitTestCaseAction 1494614420216 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494614420216 TestPlanetExplorer.java FAIL
 EditAction 1494614557034 Explorer.java 1370 10 15 0
 EditAction 1494614578003 TestPlanetExplorer.java 582 1 4 1
+UnitTestCaseAction 1494614580563 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614580564 TestPlanetExplorer.java OK
+RefactoringAction 1494614595295 TestPlanetExplorer.java ADD void test_movingForward()/2 METHOD
+RefactoringAction 1494614599302 TestPlanetExplorer.java RENAME test_movingForward()/2=>void test_movingForwardOne() METHOD
+RefactoringAction 1494614602308 TestPlanetExplorer.java RENAME test_movingForward()=>void test_movingForwardTwo() METHOD
+RefactoringAction 1494614758489 Explorer.java ADD void ch FIELD
+RefactoringAction 1494614762500 Explorer.java RENAME ch=>void checkDirection FIELD
+RefactoringAction 1494614764012 Explorer.java RENAME checkDirection=>void checkDirection() METHOD
+RefactoringAction 1494614765521 Explorer.java RENAME checkDirection()=>void checkDirection FIELD
+RefactoringAction 1494614776044 Explorer.java RENAME checkDirection=>String checkDirection() METHOD
+RefactoringAction 1494614790581 Explorer.java RENAME checkDirection()=>String changeDirection() METHOD
+RefactoringAction 1494614798103 Explorer.java RENAME changeDirection()=>void changeDirectionRight() METHOD
+RefactoringAction 1494614805117 Explorer.java RENAME changeDirectionRight()=>void changeDirectionRight(String) METHOD
+EditAction 1494614985198 Explorer.java 1699 11 16 0

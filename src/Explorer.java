@@ -29,6 +29,21 @@ public class Explorer {
 		}
 	}*/
 	
+	public void changeDirectionRight(String dir) {
+		if (dir == "N") {
+			this.setDirection("E");
+		}
+		else if (dir == "E") {
+			this.setDirection("S");
+		}
+		else if (dir == "S") {
+			this.setDirection("W");
+		}
+		else if (dir == "W") {
+			this.setDirection("N");
+		}
+	}
+	
 	public void movingForward(String dir){
 		int distance = 1;
 		if (dir == "N"){
@@ -39,6 +54,7 @@ public class Explorer {
 		}
 		if (dir == "E"){
 			x += distance;
+			this.changeDirectionRight(direction);
 		}
 		if (dir == "W"){
 			x -= distance;

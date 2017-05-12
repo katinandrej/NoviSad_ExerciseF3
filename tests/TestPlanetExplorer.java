@@ -65,4 +65,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(2, 1), N", one.ispis());
 	}
+	
+	@Test
+	public void test_movingForwardWithCommand() {
+		Explorer one = new Explorer (2, 2, "N");
+		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
+		
+		assertEquals("(2, 3), N", explorer.executeCommand("N"));
+	}
 }

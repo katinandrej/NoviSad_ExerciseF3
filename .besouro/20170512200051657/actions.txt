@@ -175,3 +175,22 @@ UnitTestCaseAction 1494615313276 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494615313277 TestPlanetExplorer.java OK
 RefactoringAction 1494615318674 TestPlanetExplorer.java ADD void test_movingBackTwo() METHOD
 EditAction 1494615348399 TestPlanetExplorer.java 1547 5 20 5
+UnitTestCaseAction 1494615349871 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494615349872 TestPlanetExplorer.java OK
+RefactoringAction 1494615562798 PlanetExplorer.java REMOVE getX() METHOD
+RefactoringAction 1494615562798 PlanetExplorer.java REMOVE getObstacles() METHOD
+RefactoringAction 1494615562798 PlanetExplorer.java REMOVE setX(int) METHOD
+RefactoringAction 1494615562799 PlanetExplorer.java REMOVE setY(int) METHOD
+RefactoringAction 1494615562799 PlanetExplorer.java REMOVE getY() METHOD
+RefactoringAction 1494615562799 PlanetExplorer.java REMOVE setObstacles(String) METHOD
+RefactoringAction 1494615566814 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1494615566815 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1494615566815 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1494615566815 PlanetExplorer.java ADD void setY(int) METHOD
+RefactoringAction 1494615566816 PlanetExplorer.java ADD String getObstacles() METHOD
+RefactoringAction 1494615566816 PlanetExplorer.java ADD void setObstacles(String) METHOD
+RefactoringAction 1494615583940 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1494615586449 TestPlanetExplorer.java RENAME test_=>void test_moving FIELD
+RefactoringAction 1494615592460 TestPlanetExplorer.java RENAME test_moving=>void test_movingForwardWithCommand FIELD
+RefactoringAction 1494615593969 TestPlanetExplorer.java RENAME test_movingForwardWithCommand=>void test_movingForwardWithCommand() METHOD
+EditAction 1494615771641 TestPlanetExplorer.java 1771 6 23 6

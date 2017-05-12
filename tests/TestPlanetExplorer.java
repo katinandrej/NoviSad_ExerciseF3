@@ -23,6 +23,6 @@ public class TestPlanetExplorer {
 		
 		one.movingForward(one.getDirection());
 		
-		assertEquals("S", one.ispis());
+		assertEquals("(1, 0), E", one.ispis());
 	}
 }

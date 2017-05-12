@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 // Before you commit and push write your student ID and finish time here.
-// Finish time:
-// Student ID:
+// Finish time: 21:03
+// Student ID: IT 4-2015
 
 public class PlanetExplorer {
 	

@@ -97,7 +97,7 @@ public class Explorer {
 		}
 	}
 	
-	public String 
+	//public String 
 	
 	public String ispis() {
 		return "(" + Integer.toString(this.x) + ", " + Integer.toString(this.y) + "), " + this.direction;

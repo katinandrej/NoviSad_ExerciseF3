@@ -47,10 +47,13 @@ public class PlanetExplorer {
 			one.movingForward("N");
 			return "(" + Integer.toString(one.getX()) + ", " + Integer.toString(one.getY()) + "), " + one.getDirection();
 		}
-		/*else if (command == "b") {
+		else if (command == "b") {
 			one.movingBack("S");
+			return "(" + Integer.toString(one.getX()) + ", " + Integer.toString(one.getY()) + "), " + one.getDirection();
 		}
-		else if (command == "")*/
+		/*else if (command == "") {
+			
+		}*/
 		else
 			return null;
 	}

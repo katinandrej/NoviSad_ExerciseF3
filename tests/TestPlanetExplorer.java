@@ -28,11 +28,11 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_movingForwardTwo() {
-		Explorer one = new Explorer (0, 0, "E");
+		Explorer one = new Explorer (0, 0, "N");
 		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
 		
 		one.movingForward(one.getDirection());
 		
-		assertEquals("(0, 1), E", one.ispis());
+		assertEquals("(0, 1), N", one.ispis());
 	}
 }

@@ -134,3 +134,6 @@ RefactoringAction 1494614798103 Explorer.java RENAME changeDirection()=>void cha
 RefactoringAction 1494614805117 Explorer.java RENAME changeDirectionRight()=>void changeDirectionRight(String) METHOD
 EditAction 1494614985198 Explorer.java 1699 11 16 0
 EditAction 1494615012233 TestPlanetExplorer.java 828 2 8 2
+UnitTestCaseAction 1494615013114 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615013114 TestPlanetExplorer.java FAIL
+EditAction 1494615033716 TestPlanetExplorer.java 828 2 8 2

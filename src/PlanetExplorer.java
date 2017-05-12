@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 // Before you commit and push write your student ID and finish time here.
 // Finish time:
@@ -9,6 +10,7 @@ public class PlanetExplorer {
 	private int y;
 	private String obstacles;
 	private Explorer one;
+	private ArrayList<Explorer> obstaclesList = new ArrayList<Explorer>();
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -61,6 +63,11 @@ public class PlanetExplorer {
 		}
 		else
 			return null;
+	}
+	
+	public String checkObstacleHitted() {
+		
+		return "";
 	}
 	
 

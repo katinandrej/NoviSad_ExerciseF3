@@ -238,3 +238,17 @@ EditAction 1494616105977 PlanetExplorer.java 2586 9 14 0
 RefactoringAction 1494616122775 TestPlanetExplorer.java ADD void test_movingRightWithCommand()/2 METHOD
 RefactoringAction 1494616127785 TestPlanetExplorer.java RENAME test_movingRightWithCommand()/2=>void test_movingLeftWithCommand() METHOD
 EditAction 1494616139149 TestPlanetExplorer.java 2436 9 32 9
+UnitTestCaseAction 1494616140771 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616140771 TestPlanetExplorer.java OK
+UnitTestCaseAction 1494616145423 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616145423 TestPlanetExplorer.java OK
+RefactoringAction 1494616274864 PlanetExplorer.java ADD ArrayList<Explorer> obstacles/2 FIELD
+RefactoringAction 1494616277874 PlanetExplorer.java RENAME obstacles/2=>String obstacle FIELD
+RefactoringAction 1494616279884 PlanetExplorer.java RENAME obstacle=>ArrayList<Explorer> obstacles/2 FIELD
+RefactoringAction 1494616284393 PlanetExplorer.java RENAME obstacles/2=>ArrayList<Explorer> obstaclesList FIELD
+RefactoringAction 1494616303474 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1494616318016 PlanetExplorer.java ADD String obstacle FIELD
+RefactoringAction 1494616323530 PlanetExplorer.java RENAME obstacle=>String checkObstacle FIELD
+RefactoringAction 1494616325540 PlanetExplorer.java RENAME checkObstacle=>String checkObstacleHitted FIELD
+RefactoringAction 1494616327550 PlanetExplorer.java RENAME checkObstacleHitted=>String checkObstacleHitted() METHOD
+EditAction 1494616467160 PlanetExplorer.java 2746 10 15 0

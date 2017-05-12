@@ -10,7 +10,7 @@ public class TestPlanetExplorer {
 		Explorer one = new Explorer (0, 0, "N");
 		explorer = new PlanetExplorer(100,100,"(5,5)(7,8)", one);
 		
-		one.movingRight(one.getDirection());
+		one.movingRight();
 		
 		assertEquals("E", one.toString());
 		

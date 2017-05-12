@@ -163,3 +163,10 @@ RefactoringAction 1494615206481 Explorer.java ADD void movingForward(String)/2 M
 RefactoringAction 1494615210997 Explorer.java RENAME movingForward(String)/2=>void moving(String) METHOD
 RefactoringAction 1494615213012 Explorer.java RENAME moving(String)=>void movingBack(String) METHOD
 EditAction 1494615222048 Explorer.java 2358 13 22 0
+RefactoringAction 1494615238017 TestPlanetExplorer.java ADD void test_movingForwardOne()/2 METHOD
+RefactoringAction 1494615238018 TestPlanetExplorer.java ADD void test_movingForwardTwo()/2 METHOD
+RefactoringAction 1494615242032 TestPlanetExplorer.java RENAME test_movingForwardOne()/2=>void test_movingOne() METHOD
+RefactoringAction 1494615243541 TestPlanetExplorer.java RENAME test_movingOne()=>void test_movingBackOne() METHOD
+RefactoringAction 1494615247553 TestPlanetExplorer.java RENAME test_movingForwardTwo()/2=>void test_movingBackTwo() METHOD
+RefactoringAction 1494615308639 TestPlanetExplorer.java REMOVE test_movingBackTwo() METHOD
+EditAction 1494615312638 Explorer.java 2357 13 22 0

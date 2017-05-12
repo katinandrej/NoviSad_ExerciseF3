@@ -106,3 +106,7 @@ RefactoringAction 1494614224860 TestPlanetExplorer.java REMOVE test_creatingSpac
 EditAction 1494614264813 Explorer.java 1298 10 15 0
 CompilationAction 1494614265039 TestPlanetExplorer.java
 EditAction 1494614294030 TestPlanetExplorer.java 577 1 4 1
+CompilationAction 1494614294248 TestPlanetExplorer.java
+RefactoringAction 1494614338829 Explorer.java RENAME toString()=>String i() METHOD
+RefactoringAction 1494614340839 Explorer.java RENAME i()=>String ispis() METHOD
+EditAction 1494614387305 TestPlanetExplorer.java 577 1 4 1
